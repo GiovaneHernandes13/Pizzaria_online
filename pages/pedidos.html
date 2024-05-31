@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/stylePedido.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poetsen+One&display=swap">
+    <title>Pedido</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="tituloHome" href="../index.html">Pizzaria A+</a>
+        <div class="caminhosHome">
+            <a href="../pages/Cardapio.html">Cardápio</a>
+            <a href="../pages/contato.html">Contato</a>
+            <a href="../pages/sobre.html">Sobre nós</a>
+            <a href="../pages/escolhadapizza.html">Pedidos</a>
+        </div>
+    </nav>
+
+    <div class="container_pedido">
+        <div class="tituloPedido">
+            <h1>Escolha suas pizzas</h1>
+        </div>
+        <form action="cart.php" method="POST" class="escolhaPizzas">
+            <h4>Mussarela – (mussarela, rodelas de tomate e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Mussarela">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="mussarela">
+            </h4>
+            <h4>Escarola – (escarola refogada, mussarela e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Escarola">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="escarola">
+            </h4>
+            <h4>Marguerita – (mussarela, rodelas de tomate e manjericão)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Marguerita">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="marguerita">
+            </h4>
+            <h4>Atum – (mussarela, atum e cebola e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Atum">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="atum">
+            </h4>
+            <h4>Romana – (mussarela, aliche, queijo parmesão e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Romana">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="romana">
+            </h4>
+            <h4>Calabresa – (mussarela, linguiça calabresa e cebola)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Calabresa">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="calabresa">
+            </h4>
+            <h4>Napolitana – (mussarela, rodelas de tomate, queijo parmesão e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Napolitana">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="napolitana">
+            </h4>
+            <h4>Brócolis – (brócolis refogado coberto com mussarela e alho)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Brócolis">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="brocolis">
+            </h4>
+            <h4>Siciliana – (mussarela, bacon e champignon ao molho rose)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Siciliana">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="siciliana">
+            </h4>
+            <h4>Lombinho – (mussarela, lombo defumado e cebola)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Lombinho">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="lombinho">
+            </h4>
+            <h4>Portuguesa – (mussarela, ovos, palmito, pimentão, ervilha, presunto e cebola)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Portuguesa">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="portuguesa">
+            </h4>
+            <h4>Alho e óleo – (mussarela, alho e queijo parmesão)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Alho e óleo">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="alho">
+            </h4>
+            <h4>Palmito – (mussarela, palmito e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Palmito">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="palmito">
+            </h4>
+            <h4>Camarão – (camarão, molho de tomate, mussarela e catupiry)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Camarão">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="camarao">
+            </h4>
+            <h4>Toscana – (linguiça calabresa, bacon e catupiry)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Toscana">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="toscana">
+            </h4>
+            <h4>Mineira – (mussarela, catupiry e milho verde)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Mineira">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="mineira">
+            </h4>
+            <h4>Pepperoni – (mussarela, pepperoni e cebola)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Pepperoni">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="pepperoni">
+            </h4>
+            <h4>Bacon – (mussarela coberta com bacon e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Bacon">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="bacon">
+            </h4>
+            <h4>Mista – (mussarela, presunto e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Mista">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="mista">
+            </h4>
+            <h4>Califórnia – (mussarela, presunto, salada de frutas e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Califórnia">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="california">
+            </h4>
+            <h4>Vegetariana – (mussarela, pimentão, cebola, azeitona, ervilha, tomate, palmito, milho e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Vegetariana">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="vegetariana">
+            </h4>
+            <h4>Frango – (molho de tomate, mussarela e frango)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Frango">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="frango">
+            </h4>
+            <h4>Frango com Catupiry – (molho de tomate, mussarela, frango e catupiry)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Frango com Catupiry">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="frango_catupiry">
+            </h4>
+            <h4>Bolonhesa – (mussarela, molho a bolonhesa e orégano)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Bolonhesa">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="bolonhesa">
+            </h4>
+            <h4>4 Queijos – (mussarela, provolone, parmesão e gorgonzola)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="4 Queijos">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="4_queijos">
+            </h4>
+            <h4>Mucca – (mussarela, molho especial e catupiry)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Mucca">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="mucca">
+            </h4>
+            <h4>Moda da Casa – (mussarela, presunto, bacon e catupiry)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Moda da Casa">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="moda_casa">
+            </h4>
+            <h4>Especial – (mussarela, presunto, calabresa, cebola, bacon e catupiry)
+                <img class="pizza1" src="../img/pizza2.jpeg" alt="Especial">
+                <input class="checkbox" type="checkbox" name="pizzas[]" value="especial">
+            </h4>
+            <button type="submit" class="botaoEnviar">ENVIAR</button>
+        </form>
+    </div>
+</body>
+</html>
